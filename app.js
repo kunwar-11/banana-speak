@@ -2,12 +2,22 @@ var btnTranslate = document.querySelector('#btn-translate');
 var inputText = document.querySelector('textarea');
 var output = document.querySelector('#output');
 
-console.log(output);
+url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
+
+function urlBuilder(input) {
+    return url + "?" + "text=" + input;
+}
 
 function afterClick() {
-    console.log('clicked');
-    console.log("input is:-" , inputText.value);
-    output.innerText = 'bhak bsdk'
+    
+    fetch(urlBuilder(inputText.value))
+    .then(result => result.json())
+    .then(json => 
+        {console.log(json)
+        output.innerText = json.contents.translated;
+        })
+     
+
 
 }
 
