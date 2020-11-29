@@ -1,2 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,700;1,400&display=swap');
 
+:root {
+    --primary-color :#FBBF24;
+    --bg-color: #E5E7EB;
+    --color: white;
+    --head-color : black;
+}
 
+body {
+    margin: 0;
+    font-family: 'Comic Neue', cursive;
+}
+
+main {
+    max-width: 600px ;
+    margin: auto;
+    padding: 1rem;
+}
+
+textarea {
+   
+    display: block;
+    width: 100%;
+    height: 15vh;
+    border: 1px solid black;
+    font-family: inherit;
+    margin-top: 2rem;
+    font-size: large;
+}
+ #output {
+    width: 100%;
+    height: 15vh;
+    border: 1px solid black;
+    font-family: inherit;
+ }
+ 
+ #btn-translate {
+     background-color: var(--primary-color);
+     border-style: none;
+     padding: 1rem 2rem;
+     margin: 1.5rem 0rem;
+     font-family: inherit;
+     font-size: large;
+     border-radius: 1rem;
+     font-weight: bold;
+ }
+
+ .navbar {
+     background-color: var(--primary-color);
+     text-align: center;
+     padding: 1.5rem;
+     font-size: 2rem;
+     
+ }
+
+ .output-message {
+     font-size: large;
+     padding-bottom: 1rem;
+ }
+.footer-head {
+    font-size: x-large;
+}
+ footer {
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+     padding-bottom: 2rem;
+     padding-top: 1.5rem;
+     text-align: center;
+     background-color: var(--primary-color);
+ }
+
+ footer p {
+     max-width: 600px;
+     margin: auto;
+ }
