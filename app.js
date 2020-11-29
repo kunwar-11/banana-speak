@@ -2,7 +2,7 @@ var btnTranslate = document.querySelector('#btn-translate');
 var inputText = document.querySelector('textarea');
 var output = document.querySelector('#output');
 
-url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
+url = "https://api.funtranslations.com/translate/minion.json";
 
 function urlBuilder(input) {
     return url + "?" + "text=" + input;
@@ -16,6 +16,7 @@ function afterClick() {
         {console.log(json)
         output.innerText = json.contents.translated;
         })
+    .catch(error => alert(error + "sorry for inconvinience"))    
      
 
 
