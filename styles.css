@@ -40,7 +40,7 @@ textarea {
  #btn-translate {
      background-color: var(--primary-color);
      border-style: none;
-     padding: 1rem 2rem;
+     padding: 0.5rem 3rem;
      margin: 2rem 0rem;
      font-family: inherit;
      font-size: large;
