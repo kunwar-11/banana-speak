@@ -39,7 +39,7 @@ textarea {
      background-color: var(--primary-color);
      border-style: none;
      padding: 1rem 2rem;
-     margin: 1.5rem 0rem;
+     margin: 2rem 0rem;
      font-family: inherit;
      font-size: large;
      border-radius: 1rem;
@@ -65,8 +65,8 @@ textarea {
      position: fixed;
      bottom: 0;
      width: 100%;
-     padding-bottom: 2rem;
-     padding-top: 1.5rem;
+     padding-bottom: 1rem;
+     padding-top: 1rem;
      text-align: center;
      background-color: var(--primary-color);
  }
@@ -74,4 +74,10 @@ textarea {
  footer p {
      max-width: 600px;
      margin: auto;
+ }
+
+ @media only screen and (max-width: 321px) {
+    #btn-translate {
+        margin-bottom: 1rem;
+    }
  }
