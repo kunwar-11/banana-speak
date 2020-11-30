@@ -10,6 +10,7 @@
 body {
     margin: 0;
     font-family: 'Comic Neue', cursive;
+    background-color: var(--bg-color);
 }
 
 main {
@@ -27,6 +28,7 @@ textarea {
     font-family: inherit;
     margin-top: 2rem;
     font-size: large;
+    background-color: inherit;
 }
  #output {
     width: 100%;
